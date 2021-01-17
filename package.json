@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate-frontend",
+  "version": "0.0.1",
+  "description": "Simple front-end boilerplate using Gulp 4",
+  "main": "gulpfile.js",
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/paifgx/boilerplate-frontend.git"
+  },
+  "keywords": [
+	"gulp",
+	"boilerplate",
+	"html",
+	"css",
+	"javascript"
+  ],
+  "author": "@paifgx",
+  "license": "ISC",
+  "homepage": "https://github.com/paifgx/boilerplate-frontend#readme",
+  "devDependencies": {
+	"autoprefixer": "^10.2.1",
+	"postcss": "^8.2.4",
+	"babel-eslint": "^10.1.0",
+	"cssnano": "^4.1.10",
+	"eslint": "^7.18.0",
+	"eslint-config-airbnb": "^18.2.1",
+	"eslint-config-prettier": "^7.1.0",
+	"eslint-plugin-import": "^2.22.1",
+	"eslint-plugin-jsx-a11y": "^6.4.1",
+	"eslint-plugin-prettier": "^3.3.1",
+	"eslint-plugin-react": "^7.22.0",
+	"gulp": "^4.0.2",
+	"gulp-concat": "^2.6.1",
+	"gulp-postcss": "^9.0.0",
+	"gulp-replace": "^1.0.0",
+	"gulp-sass": "^4.0.2",
+	"gulp-sourcemaps": "^3.0.0",
+	"gulp-uglify": "^3.0.2",
+	"prettier": "^2.2.1"
+  },
+  "scripts": {
+	"watch": "gulp watch",
+	"build": "gulp"
+  }
+}
